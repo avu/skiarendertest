@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 project(skiarender)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/lib/osx")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/lib/osx")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/../../bin/osx")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/../../bin/osx")
 
 include_directories(SYSTEM include/skia/core)
 include_directories(SYSTEM include/skia/config)
