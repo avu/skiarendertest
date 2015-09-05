@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="skiafontdemo">
+    <output-path>$PROJECT_DIR$/out/artifacts/skiafontdemo</output-path>
+    <root id="root">
+      <element id="archive" name="skiafontdemo.jar">
+        <element id="extracted-dir" path="$PROJECT_DIR$/jna.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>
